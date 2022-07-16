@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+  
   <style name="Theme.BookLink" parent="android:Theme.Material.Light.NoActionBar">
     <item name="android:statusBarColor">#FF48A5FB</item>
+  </style>
+  
+  <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+    <item name="windowSplashScreenBackground">@color/blue100</item>
+    <item name="windowSplashScreenIconBackgroundColor">@color/blue100</item>
+    <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+    <item name="windowSplashScreenAnimationDuration">1000</item>
+    <item name="postSplashScreenTheme">@style/Theme.BookLink</item>
   </style>
 </resources>

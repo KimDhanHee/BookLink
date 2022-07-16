@@ -49,6 +49,7 @@ dependencies {
 
     implementation deps.androidx.ktx
     implementation deps.androidx.lifecycle
+    implementation deps.androidx.splash_screen
 
     implementation deps.compose.ui
     implementation deps.compose.material
